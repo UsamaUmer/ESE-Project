@@ -1,0 +1,27 @@
+
+.form-control {
+  padding-right: 70px;
+}
+
+.form-control + .glyphicon {
+  position: absolute;
+  right: 14px;
+  padding: 8px 17px 10px 15px;
+}
+
+
+#main .container-fluid #imeiSearch{
+    margin-bottom: 30px;
+}
+
+#main .container-fluid #imeiSearch #imei{
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+#main .container-fluid #imeiSearch #search{
+    width: 20px;
+    margin-right: 2px;
+    height: 32px;
+}

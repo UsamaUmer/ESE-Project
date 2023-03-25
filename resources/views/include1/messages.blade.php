@@ -1,0 +1,1 @@
+<h4 class="text-danger pull-right">{{session('msg')}}</h4>

@@ -1,0 +1,146 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #F5F5F5;
+}
+
+#nav{
+    background-color: white; 
+    border: none; 
+    margin: 10px; 
+    color: black;
+    box-shadow: 1px 1px 5px 5px #E2E2E2;
+}
+
+    .navbar-brand span{
+        color: black;
+    }
+    .navbar-header #small{
+        display: none;
+    }
+
+.sidebar {
+    height: 530px;
+    width: 250px;
+    z-index: -1;
+    top: 0;
+    margin-left: 10px;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 15px;
+    float: left;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px #E2E2E2;
+}
+
+    .sidebar #take{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            margin-left: 1px;
+            margin-top: 20px;
+        }
+    .sidebar #take a{
+        text-decoration: none;
+        color: black;
+    }
+    .sidebar #take a:hover {
+      color: #C3E1FC;
+    }
+
+    
+    .sidebar #take  #profile{
+        background: url(Images/profile.jpg) no-repeat left 10px center;
+    }
+    .sidebar #take  #device{
+        background: url(Images/device.jpg) no-repeat left 10px center;
+    }
+    .sidebar #take  #blockedDevice{
+        background: url(Images/blockedDevice.jpg) no-repeat left 10px center;
+    }
+    .sidebar #take  #informationBank{
+        background: url(Images/information.jpg) no-repeat left 10px center;
+    }
+    .sidebar #take  #report{
+        background: url(Images/complain.png) no-repeat left 10px center;
+    }
+    .sidebar #take  #retailer{
+        background: url(Images/retailer.jpg) no-repeat left 10px center;
+    }
+    .sidebar #take li{
+        height: 60px;
+        padding-left: 39px;
+        padding-top: 20px;
+        font-family: 'Montserrat';
+        font-size: 16px;
+    }
+    .sidebar #take  #profile:hover,.sidebar #take  #device:hover, .sidebar #take  #blockedDevice:hover, .sidebar #take  #informationBank:hover, .sidebar #take  #report:hover, .sidebar #take  #retailer:hover{
+            background-color: #DFEFFD;
+            font-size: 16px;
+            color: #0388FD;
+            font-family: 'Montserrat';
+            border-left: 5px solid  #2999EF;
+        }
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+    margin-left: 270px;
+    transition: margin-left .5s;
+    padding: 16px;
+    background-color: white; 
+    border: none;
+    color: black; 
+    height: 530px; 
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px #E2E2E2;
+    overflow: auto;
+}
+
+    #main .container-fluid, h3{
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+
+
+    #main .container-fluid form .form-row .form-group label{
+        font-weight: normal;
+        margin-bottom: 10px;
+        font-family: 'Montserrat';
+    }
+
+
+@media screen and (max-height: 450px) {
+    
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .navbar-header #large{
+        display: none;
+    }
+    .navbar-header #small{
+        display: block;
+    }
+}
+
+
+
+
